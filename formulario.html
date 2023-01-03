@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <section>
+       <h3>Formulario de registro</h3>
+
+
+       <form action="">
+
+          <lebel form="nombre"> Ingrese su nombre
+            <input type="text" id="nombre" placeholder="Coloque su nombre">
+          </lebel> <br> <br>
+
+        
+
+            <lebel form="apellido"> Ingrese su apellido
+              <input type="text" id="apellido" placeholder="Ingrese su apellido">
+            </lebel> <br> <br>
+
+       
+
+            <lebel form=""> Ingrese su correo
+              <input type="email" id="correo" placeholder="ingrese su correo electronico">
+            </lebel> <br> <br>
+
+
+
+            <lebel> ¿Qué habitación prefiere? <br>
+              <input type="checkbox" name="Chica" value=""> Chica <br>
+              <input type="checkbox" name="Mediana" value=""> Mediana <br>
+              <input type="checkbox" name="Grande" value=""> Grande 
+            </lebel> <br> <br>
+
+
+
+            <lebel> ¿Desea servicio en la habitación? <br>
+             <input type="radio" name="habitación" value="si"> Afirmativo <br>
+             <input type="radio" name="habitación" value="no"> Negativo<br>
+            </lebel> <br>
+
+
+
+            <lebel form="país"> selecciona el país de procedencia
+                <select name="país-origen" id="país">
+                <option value="" disabled salected> País </option>
+                <option value="Argentina"> Argentina </option>
+                <option value="Chile"> Chile </option>
+                <option value="Brasil"> Brasil </option>
+                <option value="Paraguay"> Paraguay </option>
+                <option value="Uruguay"> Uruguay </option>
+                <option value="Bolivia"> Bolivia </option> <br />
+                </select>
+             </lebel> <br> <br>
+
+
+
+             <lebel> Escriba información extra <br>
+                <textarea name="texto" maxlength="300" rows="10" cols="25"></textarea>
+            </lebel> <br> <br>
+
+
+
+            <lebel>
+             <input type="button" value="Boton">
+             <input type="reset" value="Reseteador">
+             <button type="submit"> Enviar</button>
+            </lebel> <br> <br>
+ 
+       </form>
+
+
+    </section>
+</body>
+</html>
